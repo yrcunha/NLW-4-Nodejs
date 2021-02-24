@@ -1,33 +1,33 @@
 {
-   "name": "nlw4-nodejs",
-   "version": "1.0.0",
-   "main": "index.ts",
-   "license": "MIT",
-   "scripts": {
-      "dev": "ts-node-dev --respawn ./src/index.ts",
-      "start": "ts-node src/index.ts",
-      "migrate:created": "typeorm migration:create -n",
-      "migrate:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
-      "migration:revert": "ts-node ./node_modules/typeorm/cli.js migration:revert"
-   },
-   "dependencies": {
-      "bcryptjs": "^2.4.3",
-      "body-parser": "^1.19.0",
-      "dotenv": "^8.2.0",
-      "express": "^4.17.1",
-      "mysql": "^2.14.1",
-      "pg": "^8.5.1",
-      "reflect-metadata": "^0.1.10",
-      "typeorm": "0.2.31",
-      "uuid": "^8.3.2"
-   },
-   "devDependencies": {
-      "@types/bcryptjs": "^2.4.2",
-      "@types/express": "^4.17.11",
-      "@types/node": "^8.0.29",
-      "@types/uuid": "^8.3.0",
-      "ts-node": "3.3.0",
-      "ts-node-dev": "^1.1.1",
-      "typescript": "3.3.3333"
-   }
+  "name": "nlw-4-nodejs",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "ts-node src/index.ts",
+    "migrate:created": "typeorm migration:create -n",
+    "migrate:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
+    "migration:revert": "ts-node ./node_modules/typeorm/cli.js migration:revert"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.14.1",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.31",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.11",
+    "@types/node": "^8.0.29",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "3.3.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "3.3.3333"
+  }
 }
